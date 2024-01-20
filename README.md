@@ -13,5 +13,5 @@ NanaVA is a application that stores and find your information.
 
 * You should see the tables after you imported.
 
-## Database File ## 
-[NanaVA - DB](https://github.com/JshMaxer/NanaVA/files/11591440/nanava.sql.gz)
+## Error / Conflict ## 
+### Just rebuild the solution. ###
