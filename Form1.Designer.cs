@@ -81,7 +81,7 @@ namespace NanaVA
             this.guna2ControlBox2.HoverState.FillColor = System.Drawing.Color.Transparent;
             this.guna2ControlBox2.HoverState.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.guna2ControlBox2.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2ControlBox2.Location = new System.Drawing.Point(305, 3);
+            this.guna2ControlBox2.Location = new System.Drawing.Point(306, 3);
             this.guna2ControlBox2.Margin = new System.Windows.Forms.Padding(2);
             this.guna2ControlBox2.Name = "guna2ControlBox2";
             this.guna2ControlBox2.Size = new System.Drawing.Size(35, 29);
