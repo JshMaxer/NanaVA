@@ -110,7 +110,7 @@ namespace NanaVA
             this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label2.Font = new System.Drawing.Font("Bahnschrift", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(171, 425);
+            this.label2.Location = new System.Drawing.Point(150, 397);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(83, 13);
@@ -125,7 +125,7 @@ namespace NanaVA
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Bahnschrift Condensed", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(37, 218);
+            this.label1.Location = new System.Drawing.Point(37, 204);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(309, 34);
@@ -150,7 +150,7 @@ namespace NanaVA
             this.btnlogin.ForeColor = System.Drawing.Color.White;
             this.btnlogin.HoverState.FillColor = System.Drawing.SystemColors.Desktop;
             this.btnlogin.HoverState.FillColor2 = System.Drawing.SystemColors.ButtonShadow;
-            this.btnlogin.Location = new System.Drawing.Point(117, 367);
+            this.btnlogin.Location = new System.Drawing.Point(117, 350);
             this.btnlogin.Margin = new System.Windows.Forms.Padding(2);
             this.btnlogin.Name = "btnlogin";
             this.btnlogin.Size = new System.Drawing.Size(148, 37);
@@ -175,7 +175,7 @@ namespace NanaVA
             this.txtpassword.HoverState.BorderColor = System.Drawing.Color.Gray;
             this.txtpassword.IconLeft = global::NanaVA.Properties.Resources.padlock;
             this.txtpassword.IconLeftOffset = new System.Drawing.Point(5, 0);
-            this.txtpassword.Location = new System.Drawing.Point(80, 318);
+            this.txtpassword.Location = new System.Drawing.Point(80, 307);
             this.txtpassword.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtpassword.Name = "txtpassword";
             this.txtpassword.PasswordChar = '\0';
@@ -201,7 +201,7 @@ namespace NanaVA
             this.txtname.HoverState.BorderColor = System.Drawing.Color.Gray;
             this.txtname.IconLeft = global::NanaVA.Properties.Resources.user;
             this.txtname.IconLeftOffset = new System.Drawing.Point(5, 0);
-            this.txtname.Location = new System.Drawing.Point(80, 271);
+            this.txtname.Location = new System.Drawing.Point(80, 260);
             this.txtname.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtname.Name = "txtname";
             this.txtname.PasswordChar = '\0';
@@ -215,7 +215,7 @@ namespace NanaVA
             this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2CirclePictureBox1.Image = global::NanaVA.Properties.Resources.Nana__1_;
             this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(94, 20);
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(94, 15);
             this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
