@@ -38,7 +38,6 @@ namespace NanaVA
             this.rgbtrans = new Guna.UI2.WinForms.Guna2ColorTransition(this.components);
             this.rgbtranslight = new Guna.UI2.WinForms.Guna2ColorTransition(this.components);
             this.timerclose = new System.Windows.Forms.Timer(this.components);
-            this.txtsecret = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // subsmooth
@@ -48,18 +47,20 @@ namespace NanaVA
             // rgbline
             // 
             this.rgbline.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.rgbline.Location = new System.Drawing.Point(39, 122);
+            this.rgbline.Location = new System.Drawing.Point(29, 99);
+            this.rgbline.Margin = new System.Windows.Forms.Padding(2);
             this.rgbline.Name = "rgbline";
-            this.rgbline.Size = new System.Drawing.Size(366, 10);
+            this.rgbline.Size = new System.Drawing.Size(274, 8);
             this.rgbline.TabIndex = 3;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Bahnschrift", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(77, 42);
+            this.label1.Location = new System.Drawing.Point(58, 34);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(280, 68);
+            this.label1.Size = new System.Drawing.Size(217, 54);
             this.label1.TabIndex = 2;
             this.label1.Text = "Your information is\r\nsuccesfully changed!";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -107,25 +108,17 @@ namespace NanaVA
             this.timerclose.Interval = 3000;
             this.timerclose.Tick += new System.EventHandler(this.timerclose_Tick);
             // 
-            // txtsecret
-            // 
-            this.txtsecret.AutoSize = true;
-            this.txtsecret.Location = new System.Drawing.Point(22, 241);
-            this.txtsecret.Name = "txtsecret";
-            this.txtsecret.Size = new System.Drawing.Size(0, 17);
-            this.txtsecret.TabIndex = 4;
-            // 
             // Submitted
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(442, 198);
-            this.Controls.Add(this.txtsecret);
+            this.ClientSize = new System.Drawing.Size(332, 161);
             this.Controls.Add(this.rgbline);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Submitted";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Submitted";
@@ -143,6 +136,5 @@ namespace NanaVA
         private Guna.UI2.WinForms.Guna2ColorTransition rgbtrans;
         private Guna.UI2.WinForms.Guna2ColorTransition rgbtranslight;
         private System.Windows.Forms.Timer timerclose;
-        public System.Windows.Forms.Label txtsecret;
     }
 }

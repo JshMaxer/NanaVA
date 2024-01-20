@@ -65,7 +65,7 @@ namespace NanaVA
             this.txtlastname.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtlastname.HoverState.BorderColor = System.Drawing.Color.Gray;
             this.txtlastname.IconLeftOffset = new System.Drawing.Point(5, 0);
-            this.txtlastname.Location = new System.Drawing.Point(44, 113);
+            this.txtlastname.Location = new System.Drawing.Point(39, 113);
             this.txtlastname.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtlastname.Name = "txtlastname";
             this.txtlastname.PasswordChar = '\0';
@@ -79,13 +79,13 @@ namespace NanaVA
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(69, 27);
+            this.label1.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(54, 29);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(307, 19);
+            this.label1.Size = new System.Drawing.Size(244, 50);
             this.label1.TabIndex = 8;
-            this.label1.Text = "Please provide the following with your new  information:";
+            this.label1.Text = "Please provide the following with\r\nyour new  information:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // guna2GradientPanel1
@@ -103,9 +103,9 @@ namespace NanaVA
             this.guna2GradientPanel1.FillColor = System.Drawing.SystemColors.ButtonFace;
             this.guna2GradientPanel1.FillColor2 = System.Drawing.SystemColors.ControlLightLight;
             this.guna2GradientPanel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2GradientPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2GradientPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(382, 425);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(352, 425);
             this.guna2GradientPanel1.TabIndex = 10;
             // 
             // btnsubmit
@@ -122,8 +122,8 @@ namespace NanaVA
             this.btnsubmit.ForeColor = System.Drawing.Color.Black;
             this.btnsubmit.HoverState.FillColor = System.Drawing.Color.Black;
             this.btnsubmit.HoverState.ForeColor = System.Drawing.Color.Silver;
-            this.btnsubmit.Location = new System.Drawing.Point(184, 355);
-            this.btnsubmit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnsubmit.Location = new System.Drawing.Point(179, 355);
+            this.btnsubmit.Margin = new System.Windows.Forms.Padding(2);
             this.btnsubmit.Name = "btnsubmit";
             this.btnsubmit.Size = new System.Drawing.Size(135, 37);
             this.btnsubmit.TabIndex = 14;
@@ -144,8 +144,8 @@ namespace NanaVA
             this.btncancel.ForeColor = System.Drawing.Color.Black;
             this.btncancel.HoverState.FillColor = System.Drawing.Color.Black;
             this.btncancel.HoverState.ForeColor = System.Drawing.Color.Silver;
-            this.btncancel.Location = new System.Drawing.Point(44, 355);
-            this.btncancel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btncancel.Location = new System.Drawing.Point(39, 355);
+            this.btncancel.Margin = new System.Windows.Forms.Padding(2);
             this.btncancel.Name = "btncancel";
             this.btncancel.Size = new System.Drawing.Size(135, 37);
             this.btncancel.TabIndex = 13;
@@ -166,7 +166,7 @@ namespace NanaVA
             this.txtnum.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtnum.HoverState.BorderColor = System.Drawing.Color.Gray;
             this.txtnum.IconLeftOffset = new System.Drawing.Point(5, 0);
-            this.txtnum.Location = new System.Drawing.Point(44, 275);
+            this.txtnum.Location = new System.Drawing.Point(39, 275);
             this.txtnum.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtnum.Name = "txtnum";
             this.txtnum.PasswordChar = '\0';
@@ -191,7 +191,7 @@ namespace NanaVA
             this.txtmiddlename.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtmiddlename.HoverState.BorderColor = System.Drawing.Color.Gray;
             this.txtmiddlename.IconLeftOffset = new System.Drawing.Point(5, 0);
-            this.txtmiddlename.Location = new System.Drawing.Point(44, 222);
+            this.txtmiddlename.Location = new System.Drawing.Point(39, 222);
             this.txtmiddlename.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtmiddlename.Name = "txtmiddlename";
             this.txtmiddlename.PasswordChar = '\0';
@@ -215,7 +215,7 @@ namespace NanaVA
             this.txtfirstname.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtfirstname.HoverState.BorderColor = System.Drawing.Color.Gray;
             this.txtfirstname.IconLeftOffset = new System.Drawing.Point(5, 0);
-            this.txtfirstname.Location = new System.Drawing.Point(44, 168);
+            this.txtfirstname.Location = new System.Drawing.Point(39, 168);
             this.txtfirstname.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtfirstname.Name = "txtfirstname";
             this.txtfirstname.PasswordChar = '\0';
@@ -231,10 +231,10 @@ namespace NanaVA
             this.guna2CirclePictureBox1.Image = global::NanaVA.Properties.Resources.Nana__1_;
             this.guna2CirclePictureBox1.ImageRotate = 0F;
             this.guna2CirclePictureBox1.Location = new System.Drawing.Point(2, 2);
-            this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(62, 63);
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(48, 41);
             this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2CirclePictureBox1.TabIndex = 7;
             this.guna2CirclePictureBox1.TabStop = false;
@@ -255,14 +255,15 @@ namespace NanaVA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(382, 425);
+            this.ClientSize = new System.Drawing.Size(352, 425);
             this.Controls.Add(this.guna2GradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Change";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Change";
+            this.Load += new System.EventHandler(this.Change_Load);
             this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();

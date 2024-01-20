@@ -65,9 +65,9 @@ namespace NanaVA
             this.mainpanel.FillColor = System.Drawing.SystemColors.ButtonFace;
             this.mainpanel.FillColor2 = System.Drawing.SystemColors.ControlLightLight;
             this.mainpanel.Location = new System.Drawing.Point(0, 0);
-            this.mainpanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mainpanel.Margin = new System.Windows.Forms.Padding(2);
             this.mainpanel.Name = "mainpanel";
-            this.mainpanel.Size = new System.Drawing.Size(424, 468);
+            this.mainpanel.Size = new System.Drawing.Size(383, 424);
             this.mainpanel.TabIndex = 0;
             // 
             // guna2ControlBox2
@@ -81,8 +81,8 @@ namespace NanaVA
             this.guna2ControlBox2.HoverState.FillColor = System.Drawing.Color.Transparent;
             this.guna2ControlBox2.HoverState.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.guna2ControlBox2.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2ControlBox2.Location = new System.Drawing.Point(346, 3);
-            this.guna2ControlBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2ControlBox2.Location = new System.Drawing.Point(305, 3);
+            this.guna2ControlBox2.Margin = new System.Windows.Forms.Padding(2);
             this.guna2ControlBox2.Name = "guna2ControlBox2";
             this.guna2ControlBox2.Size = new System.Drawing.Size(35, 29);
             this.guna2ControlBox2.TabIndex = 6;
@@ -97,8 +97,8 @@ namespace NanaVA
             this.guna2ControlBox1.HoverState.FillColor = System.Drawing.Color.Transparent;
             this.guna2ControlBox1.HoverState.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.guna2ControlBox1.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2ControlBox1.Location = new System.Drawing.Point(386, 3);
-            this.guna2ControlBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2ControlBox1.Location = new System.Drawing.Point(345, 3);
+            this.guna2ControlBox1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2ControlBox1.Name = "guna2ControlBox1";
             this.guna2ControlBox1.Size = new System.Drawing.Size(35, 29);
             this.guna2ControlBox1.TabIndex = 6;
@@ -125,7 +125,7 @@ namespace NanaVA
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Bahnschrift Condensed", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(70, 218);
+            this.label1.Location = new System.Drawing.Point(37, 218);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(309, 34);
@@ -150,8 +150,8 @@ namespace NanaVA
             this.btnlogin.ForeColor = System.Drawing.Color.White;
             this.btnlogin.HoverState.FillColor = System.Drawing.SystemColors.Desktop;
             this.btnlogin.HoverState.FillColor2 = System.Drawing.SystemColors.ButtonShadow;
-            this.btnlogin.Location = new System.Drawing.Point(136, 375);
-            this.btnlogin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnlogin.Location = new System.Drawing.Point(117, 367);
+            this.btnlogin.Margin = new System.Windows.Forms.Padding(2);
             this.btnlogin.Name = "btnlogin";
             this.btnlogin.Size = new System.Drawing.Size(148, 37);
             this.btnlogin.TabIndex = 3;
@@ -175,7 +175,7 @@ namespace NanaVA
             this.txtpassword.HoverState.BorderColor = System.Drawing.Color.Gray;
             this.txtpassword.IconLeft = global::NanaVA.Properties.Resources.padlock;
             this.txtpassword.IconLeftOffset = new System.Drawing.Point(5, 0);
-            this.txtpassword.Location = new System.Drawing.Point(103, 318);
+            this.txtpassword.Location = new System.Drawing.Point(80, 318);
             this.txtpassword.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtpassword.Name = "txtpassword";
             this.txtpassword.PasswordChar = '\0';
@@ -201,7 +201,7 @@ namespace NanaVA
             this.txtname.HoverState.BorderColor = System.Drawing.Color.Gray;
             this.txtname.IconLeft = global::NanaVA.Properties.Resources.user;
             this.txtname.IconLeftOffset = new System.Drawing.Point(5, 0);
-            this.txtname.Location = new System.Drawing.Point(103, 271);
+            this.txtname.Location = new System.Drawing.Point(80, 271);
             this.txtname.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtname.Name = "txtname";
             this.txtname.PasswordChar = '\0';
@@ -215,8 +215,8 @@ namespace NanaVA
             this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2CirclePictureBox1.Image = global::NanaVA.Properties.Resources.Nana__1_;
             this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(113, 20);
-            this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(94, 20);
+            this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox1.Size = new System.Drawing.Size(194, 184);
@@ -240,11 +240,11 @@ namespace NanaVA
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(424, 468);
+            this.ClientSize = new System.Drawing.Size(383, 424);
             this.Controls.Add(this.mainpanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";

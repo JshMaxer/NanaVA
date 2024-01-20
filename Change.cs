@@ -1,19 +1,21 @@
-﻿using System;
+﻿using NanaVA.DBSource;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MySql.Data.MySqlClient;
 
 namespace NanaVA
 {
     public partial class Change : Form
     {
-        MySqlConnection connection = new MySqlConnection("datasource=localhost;port=3306;Initial Catalog = NanaVA;username=root;password=;");
+        SqlConnection connection = Host.connection;
+        
         public Change()
         {
             InitializeComponent();
@@ -37,16 +39,20 @@ namespace NanaVA
                 Submitted submit = new Submitted();
                 Oldinfo old = new Oldinfo();
 
-                string updateQuery = "UPDATE information SET first_name = '" + txtfirstname.Text + "', last_name = '" + txtlastname.Text + "', middle_name = '" + txtmiddlename.Text + "'" + "WHERE student_number = " + Convert.ToInt32(txtnum.Text);
+                string updateQuery = "UPDATE information SET first_name = '" + txtfirstname.Text + "', last_name = '" + txtlastname.Text + "', middle_name = '" + txtmiddlename.Text + "'" + "WHERE student_number = '" + txtnum.Text + "'";
                 connection.Open();
-                MySqlCommand cmd = new MySqlCommand(updateQuery, connection);
+                SqlCommand cmd = new SqlCommand(updateQuery, connection);
 
                 try
                 {
                     if (cmd.ExecuteNonQuery() == 1)
                     {
                         MessageBox.Show("Account updated", "Reminder", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        submit.txtsecret.Text = txtnum.Text;
+
+                        Source.UniversalInfo.fname = txtfirstname.Text;
+                        Source.UniversalInfo.mname = txtmiddlename.Text;
+                        Source.UniversalInfo.lname = txtlastname.Text;
+
                         submit.Show();
                         this.Close();
                     }
@@ -63,6 +69,11 @@ namespace NanaVA
                 connection.Close();
             }
 
+        }
+
+        private void Change_Load(object sender, EventArgs e)
+        {
+            txtnum.Text = Source.UniversalInfo.studentnum;
         }
     }
 }

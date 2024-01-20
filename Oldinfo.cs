@@ -7,11 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using NanaVA.DBSource;
 
 namespace NanaVA
 {
     public partial class Oldinfo : Form
     {
+        SqlConnection connection = Host.connection;
+
         public Oldinfo()
         {
             InitializeComponent();
@@ -28,8 +32,15 @@ namespace NanaVA
         {
             Change change = new Change();
             change.Show();
-            change.txtnum.Text = txtnum.Text;
             this.Close();
+        }
+
+        private void Oldinfo_Load(object sender, EventArgs e)
+        {
+            txtfirstname.Text = Source.UniversalInfo.fname;
+            txtmiddlename.Text = Source.UniversalInfo.mname;
+            txtlastname.Text = Source.UniversalInfo.lname;
+            txtnum.Text = Source.UniversalInfo.studentnum;
         }
     }
 }
